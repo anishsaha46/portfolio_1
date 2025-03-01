@@ -186,6 +186,78 @@ export default function Home() {
             </Button>
           </div>
         </section>
+
+
+        {/* Skills Section */}
+        <section id="skills" className="py-20 px-6 md:px-20">
+          <h2 className="text-4xl font-bold mb-12 flex items-center">
+            <span className="bg-black text-white px-4 py-2 mr-4 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)]">
+              SKILLS
+            </span>
+            <span className="text-black">What I Do</span>
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="bg-green-300 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none p-6">
+              <div className="bg-white w-16 h-16 flex items-center justify-center border-4 border-black mb-4">
+                <Code className="h-8 w-8" />
+              </div>
+              <h3 className="text-2xl font-bold mb-2">Frontend Development</h3>
+              <p>Building responsive, accessible, and performant web applications with modern frameworks.</p>
+              <ul className="mt-4 space-y-2">
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">01</span> React & Next.js
+                </li>
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">02</span> TypeScript
+                </li>
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">03</span> Tailwind CSS
+                </li>
+              </ul>
+            </Card>
+
+            <Card className="bg-yellow-300 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none p-6">
+              <div className="bg-white w-16 h-16 flex items-center justify-center border-4 border-black mb-4">
+                <Palette className="h-8 w-8" />
+              </div>
+              <h3 className="text-2xl font-bold mb-2">Backend Development</h3>
+              <p>Building scalable, secure, and high-performance server-side applications using modern backend frameworks and technologies, ensuring robust APIs, data handling, and optimal server performance."</p>
+              <ul className="mt-4 space-y-2">
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">01</span> NodeJs
+                </li>
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">02</span> Express
+                </li>
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">03</span> Postgres
+                </li>
+              </ul>
+            </Card>
+
+            <Card className="bg-blue-300 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none p-6">
+              <div className="bg-white w-16 h-16 flex items-center justify-center border-4 border-black mb-4">
+                <Lightbulb className="h-8 w-8" />
+              </div>
+              <h3 className="text-2xl font-bold mb-2">Problem Solving</h3>
+              <p>Finding creative solutions to complex technical challenges and user experience problems.</p>
+              <ul className="mt-4 space-y-2">
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">01</span> Performance Optimization
+                </li>
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">02</span> Responsive Design
+                </li>
+                <li className="flex items-center">
+                  <span className="bg-black text-white px-2 mr-2">03</span> Cross-browser Compatibility
+                </li>
+              </ul>
+            </Card>
+          </div>
+        </section>
+
+
 </main>
   
     </div>
