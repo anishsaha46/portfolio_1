@@ -258,7 +258,166 @@ export default function Home() {
         </section>
 
 
+
+{/* Contact Section */}
+<section id="contact" className="py-20 px-6 md:px-20 bg-pink-200 border-t-4 border-black">
+  <h2 className="text-4xl font-bold mb-12 flex items-center">
+    <span className="bg-black text-white px-4 py-2 mr-4 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)]">
+      CONTACT
+    </span>
+    <span className="text-black">Get In Touch</span>
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-10">
+    <Card className="bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none p-8">
+      <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
+      <form className="space-y-6">
+        <div>
+          <label className="block text-lg font-bold mb-2">Name</label>
+          <input
+            type="text"
+            className="w-full p-3 border-4 border-black focus:outline-none focus:ring-4 focus:ring-yellow-300"
+            placeholder="Your name"
+          />
+        </div>
+        <div>
+          <label className="block text-lg font-bold mb-2">Email</label>
+          <input
+            type="email"
+            className="w-full p-3 border-4 border-black focus:outline-none focus:ring-4 focus:ring-yellow-300"
+            placeholder="your@email.com"
+          />
+        </div>
+        <div>
+          <label className="block text-lg font-bold mb-2">Message</label>
+          <textarea
+            className="w-full p-3 border-4 border-black focus:outline-none focus:ring-4 focus:ring-yellow-300 min-h-[150px]"
+            placeholder="What's on your mind?"
+          ></textarea>
+        </div>
+        <Button className="bg-black text-white hover:bg-gray-800 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)] rounded-none w-full py-6 text-xl">
+          Send Message
+        </Button>
+      </form>
+    </Card>
+
+    <div className="space-y-8">
+      <Card className="bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none p-6">
+        <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
+        <p className="mb-6">
+          Feel free to reach out through any of these channels. I'm always open to discussing new projects,
+          creative ideas, or opportunities to be part of your vision.
+        </p>
+        <div className="space-y-4">
+          <div className="flex items-center">
+            <div className="bg-yellow-400 p-2 border-2 border-black mr-4">
+              <Mail className="h-6 w-6" />
+            </div>
+            <span>anishsaha615@gmail.com</span>
+          </div>
+          <div className="flex items-center">
+            <a
+              href="https://www.linkedin.com/in/anish-saha-458967226/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-blue-600 hover:text-blue-800"
+            >
+              <div className="bg-blue-400 p-2 border-2 border-black">
+                <Linkedin className="h-6 w-6" />
+              </div>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+          <div className="flex items-center">
+            <a
+              href="https://x.com/anishsaha615"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-blue-600 hover:text-blue-800"
+            >
+              <div className="bg-pink-400 p-2 border-2 border-black">
+                <Twitter className="h-6 w-6" />
+              </div>
+              <span>Twitter</span>
+            </a>
+          </div>
+        </div>
+      </Card>
+
+      <Card className="bg-green-300 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none p-6">
+        <h3 className="text-2xl font-bold mb-4">Let's Work Together</h3>
+        <p>
+          Currently available for freelance work and collaborations. If you have a project that needs some
+          creative direction, let's talk!
+        </p>
+        <a href="https://calendly.com/your-username" target="_blank" rel="noopener noreferrer">
+          <Button className="mt-6 bg-black text-white hover:bg-gray-800 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)] rounded-none">
+            Schedule a Call
+          </Button>
+        </a>
+      </Card>
+    </div>
+  </div>
+</section>
+
 </main>
+
+
+{/* Footer */}
+<footer className="bg-black text-white p-6 md:p-10 border-t-4 border-black">
+  <div className="max-w-7xl mx-auto">
+    <div className="flex flex-col md:flex-row justify-between items-center mb-10">
+      <div className="text-3xl font-bold mb-6 md:mb-0">ANISH SAHA</div>
+      <div className="flex gap-4">
+        {/* GitHub Link */}
+        <Link
+          href="https://github.com/anishsaha46"
+          className="bg-white text-black p-2 border-2 border-white hover:bg-gray-200 transition-colors"
+        >
+          <Github className="h-6 w-6" />
+        </Link>
+
+        {/* Twitter Link */}
+        <Link
+          href="https://x.com/anishsaha615"
+          className="bg-white text-black p-2 border-2 border-white hover:bg-gray-200 transition-colors"
+        >
+          <Twitter className="h-6 w-6" />
+        </Link>
+
+        {/* LinkedIn Link */}
+        <Link
+          href="https://www.linkedin.com/in/anish-saha-458967226/"
+          className="bg-white text-black p-2 border-2 border-white hover:bg-gray-200 transition-colors"
+        >
+          <Linkedin className="h-6 w-6" />
+        </Link>
+
+        {/* Email Link */}
+        <Link
+          href="mailto:anishsaha615@gmail.com"
+          className="bg-white text-black p-2 border-2 border-white hover:bg-gray-200 transition-colors"
+        >
+          <Mail className="h-6 w-6" />
+        </Link>
+      </div>
+    </div>
+
+    <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
+      <div>© 2024 Anish Saha. All rights reserved.</div>
+      <div className="flex gap-6 mt-4 md:mt-0">
+        {/* Footer Links */}
+        <Link href="#" className="hover:text-yellow-300 transition-colors">
+          Privacy Policy
+        </Link>
+        <Link href="#" className="hover:text-yellow-300 transition-colors">
+          Terms of Service
+        </Link>
+      </div>
+    </div>
+  </div>
+</footer>
+
   
     </div>
   );
