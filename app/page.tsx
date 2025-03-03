@@ -79,9 +79,11 @@ export default function Home() {
             Contact
           </Link>
         </nav>
-        <Button className="bg-yellow-400 text-black hover:bg-yellow-300 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)] rounded-none">
-          Resume
-        </Button>
+        <a href="/resume.pdf" download className="inline-block">
+          <Button className="bg-yellow-400 text-black hover:bg-yellow-300 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)] rounded-none">
+            Resume
+          </Button>
+        </a>
       </header>
 
 <main>
@@ -119,9 +121,6 @@ export default function Home() {
                 height={400}
                 className="object-cover"
               />
-            </div>
-            <div className="absolute -bottom-6 -right-6 bg-pink-400 p-4 border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)]">
-              <p className="font-bold text-black">Fresher</p>
             </div>
           </div>
         </section>
