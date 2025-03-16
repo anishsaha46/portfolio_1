@@ -94,7 +94,7 @@ export default function Home() {
               Hello there!
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold text-black">
-              I'm Anish, <br />
+              I&apos;m Anish, <br />
               <span className="text-blue-600">Full Stack Developer</span>
             </h1>
             <p className="text-xl">
@@ -132,7 +132,7 @@ export default function Home() {
             <span className="bg-black text-white px-4 py-2 mr-4 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)]">
               PROJECTS
             </span>
-            <span className="text-black">What I've Built</span>
+            <span className="text-black">What I&apos;ve Built</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-10">
@@ -221,7 +221,7 @@ export default function Home() {
                 <Palette className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold mb-2">Backend Development</h3>
-              <p>Building scalable, secure, and high-performance server-side applications using modern backend frameworks and technologies, ensuring robust APIs, data handling, and optimal server performance."</p>
+              <p>Building scalable, secure, and high-performance server-side applications using modern backend frameworks and technologies, ensuring robust APIs, data handling, and optimal server performance.&quot;</p>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
                   <span className="bg-black text-white px-2 mr-2">01</span> NodeJs
@@ -304,7 +304,7 @@ export default function Home() {
       <Card className="bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none p-6">
         <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
         <p className="mb-6">
-          Feel free to reach out through any of these channels. I'm always open to discussing new projects,
+          Feel free to reach out through any of these channels. I&apos;m always open to discussing new projects,
           creative ideas, or opportunities to be part of your vision.
         </p>
         <div className="space-y-4">
@@ -344,10 +344,10 @@ export default function Home() {
       </Card>
 
       <Card className="bg-green-300 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none p-6">
-        <h3 className="text-2xl font-bold mb-4">Let's Work Together</h3>
+        <h3 className="text-2xl font-bold mb-4">Let&apos;s Work Together</h3>
         <p>
           Currently available for freelance work and collaborations. If you have a project that needs some
-          creative direction, let's talk!
+          creative direction, let&apos;s talk!
         </p>
         <a href="https://calendly.com/your-username" target="_blank" rel="noopener noreferrer">
           <Button className="mt-6 bg-black text-white hover:bg-gray-800 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0)] rounded-none">
