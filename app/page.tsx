@@ -29,13 +29,13 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Expense Tracker",
-    description: "Add, edit, and delete expenses with ease. Categorize expenses to track spending across different areas.",
-    image: "/placeholder.svg?height=300&width=600",
+    title: "SmartNotes",
+    description: "A powerful note-taking app that helps you organize your thoughts, ideas, and tasks in one place..",
+    image: "/https://www.google.com/imgres?q=aesthetic%20cute%20note%20taking%20templates&imgurl=https%3A%2F%2Fmarketplace.canva.com%2FEAFHBfBHLAM%2F1%2F0%2F1131w%2Fcanva-white-black-simple-flower-meeting-notes-O4DmnOODjVc.jpg&imgrefurl=https%3A%2F%2Fwww.canva.com%2Ftemplates%2Fs%2Fnotes%2F&docid=5jfnpVyNqC70MM&tbnid=nZrRRg8oMZlzbM&vet=12ahUKEwiqyb21l4-MAxXASmwGHW4eLoQQM3oECB4QAA..i&w=1131&h=1600&hcb=2&ved=2ahUKEwiqyb21l4-MAxXASmwGHW4eLoQQM3oECB4QAA",
     featured: false,
-    technologies: ["JavaScript", "React", "MongoDB"],
-    liveDemo: "#",
-    code: "#",
+    technologies: ["Typescript", "React", "Supabase"],
+    liveDemo: "smartnotes-tau.vercel.app",
+    code: "https://github.com/anishsaha46/SmartNotes.git",
   },
   {
     id: 3,
@@ -115,7 +115,7 @@ export default function Home() {
           <div className="md:w-1/2 relative">
             <div className="w-64 h-64 md:w-80 md:h-80 bg-blue-400 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0)] rounded-none overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/dp.jpg"
                 alt="Anish Saha"
                 width={400}
                 height={400}
